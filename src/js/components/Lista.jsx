@@ -15,7 +15,7 @@ const Lista = () => {
 			body: JSON.stringify(
 				{
 					"label": newTodo,
-					"is_done": false
+					"vis_done": false
 				}
 			),
 			headers: {
